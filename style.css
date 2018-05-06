@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.pannel {
+    background-color: whitesmoke;
+    height: 674px;
+    width: 756px;
+    margin: auto;
+    border: 1px solid green;
+}
+select#select {
+    position: relative;
+    height: 30px;
+    width: 86px;
+    top: -3px;
+    left: 10px;
+}
+button#button {
+    position: relative;
+    background-color: green;
+    float: right;
+    top: 2px;
+    right: 67px;
+    height: 29px;
+    width: 72px;
+}
+span#code {
+    color: black;
+    font-weight: bold;
+    left: 13px;
+    position: relative;
+}
+div#editor {
+    position: relative;
+    height: 345px;
+    width: 752px;
+    font-style: italic;
+    }
+span#out {
+    position: relative;
+    font-weight: bold;
+    color: darkgreen;
+    left: 20px;
+    top: 3px;
+}
+textarea#output {
+    position: relative;
+    height: 145px;
+    width: 754px;
+}
