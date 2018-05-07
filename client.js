@@ -21,12 +21,7 @@ select.addEventListener("change",()=>
 {
   if(select.value=='Java')
   {
-     editor.insert("class test {")
-     editor.insert("public static void main()")
-     editor.insert("{")
-     editor.insert("}")
-     editor.insert("}")
-     
+  editor.setValue("class test {public static void main(String argv[])}} ")
   }
   socket.emit("changed",select.value)
 })
